@@ -15,3 +15,5 @@ pip3 install -r requirements.txt
 # run server (debug mode)
 python3 server.py
 ```
+
+The server now should be available on port 5001 on [localhost](http://127.0.0.1:5001/).
