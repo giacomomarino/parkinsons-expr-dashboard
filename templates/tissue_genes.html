@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Tissue Top/Bottom Genes (Z-scored)</title>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+    <style>
+      body { font-family: Arial, sans-serif; max-width: 1100px; margin: 30px auto; padding: 20px; }
+      .controls { display:flex; gap:12px; align-items:center; margin-bottom:16px; }
+      select, input { padding:8px; font-size:14px; }
+      button { padding:8px 12px; font-size:14px; }
+    </style>
+  </head>
+  <body>
+    <h1>Tissue Top and Bottom Expressed Genes (Z-scored vs other tissues)</h1>
+
+    <div class="controls">
+      <label for="tissueSelect"><strong>Tissue:</strong></label>
+      <select id="tissueSelect">
+        {% for t in tissues %}
+          <option value="{{ t }}">{{ t }}</option>
+        {% endfor %}
+      </select>
+
+      <label for="topN"><strong>Top N:</strong></label>
+      <input id="topN" type="number" value="20" min="1" max="200" style="width:80px">
+
+      <button id="refreshBtn">Refresh</button>
+    </div>
+
+    <div id="plot" style="width:100%; height:700px;"></div>
+
+    <script>
+      const tissueSelect = document.getElementById('tissueSelect');
+      const topNInput = document.getElementById('topN');
+      const refreshBtn = document.getElementById('refreshBtn');
+      const plotDiv = document.getElementById('plot');
+
+      async function fetchAndPlot() {
+        const tissue = tissueSelect.value;
+        const topN = parseInt(topNInput.value) || 20;
+        plotDiv.innerHTML = '<p>Loading...</p>';
+
+        try {
+          const resp = await fetch(`/api/tissue_top_genes?tissue=${encodeURIComponent(tissue)}&top=${topN}`);
+          const data = await resp.json();
+          if (resp.status !== 200) {
+            plotDiv.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+            return;
+          }
+
+          // Combine bottom (negative) and top (positive) lists for plotting
+          const bottom = data.bottom || [];
+          const top = data.top || [];
+
+          // For ordering, reverse bottom so most negative is at top of chart
+          const genes = bottom.slice().reverse().map(d => d.gene).concat(top.map(d => d.gene));
+          const zs = bottom.slice().reverse().map(d => d.z).concat(top.map(d => d.z));
+
+          const colors = zs.map(z => z >= 0 ? '#1f77b4' : '#ff7f0e');
+
+          const trace = {
+            x: zs,
+            y: genes,
+            type: 'bar',
+            orientation: 'h',
+            marker: { color: colors },
+            hovertemplate: '%{y}<br>z: %{x:.2f}<extra></extra>'
+          };
+
+          const layout = {
+            title: `Top/Bottom ${topN} genes for tissue: ${tissue}`,
+            xaxis: { title: 'Z-score (vs other tissues)' },
+            margin: { l: 300, r: 40, t: 80, b: 80 },
+            height: Math.max(400, genes.length * 20 + 150)
+          };
+
+          Plotly.newPlot(plotDiv, [trace], layout, {responsive:true});
+        } catch (err) {
+          plotDiv.innerHTML = `<pre>Error: ${err.message}</pre>`;
+          console.error(err);
+        }
+      }
+
+      // initial plot
+      fetchAndPlot();
+
+      refreshBtn.addEventListener('click', fetchAndPlot);
+      tissueSelect.addEventListener('change', fetchAndPlot);
+      topNInput.addEventListener('change', fetchAndPlot);
+    </script>
+  </body>
+</html>
