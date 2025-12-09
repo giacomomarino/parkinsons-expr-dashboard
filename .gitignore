@@ -2,3 +2,4 @@
 data/*.tsv
 .venv
 *.pyc
+*__pycache__
