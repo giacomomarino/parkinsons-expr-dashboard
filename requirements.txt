@@ -1,0 +1,7 @@
+pandas
+matplotlib
+flask
+scikit-learn
+umap-learn
+qnorm
+plotly
