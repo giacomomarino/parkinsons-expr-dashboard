@@ -23,7 +23,7 @@ def load_data():
     
     print("Loading gene expression data...")
     data_path = os.path.join(os.path.dirname(__file__), 'data', 'pariksons_gene_counts_filtered_norm.tsv')
-    metadata_path = os.path.join(os.path.dirname(__file__), '..', 'problem-set-3', 'data', 'parkinson_s.json')
+    metadata_path = os.path.join(os.path.dirname(__file__), 'data', 'parkinson_s.json')
     
     # Load gene expression data
     gene_data = pd.read_csv(data_path, sep='\t', index_col=0)
@@ -246,6 +246,94 @@ def gene_stats(gene_name):
         'total_tissues': len(tissue_stats),
         'total_samples': sum(stats['count'] for stats in tissue_stats.values())
     })
+
+
+@app.route("/api/tissue_top_genes")
+def tissue_top_genes():
+    """API endpoint returning top and bottom N genes for a given tissue based on z-score across tissues."""
+    tissue = request.args.get('tissue')
+    try:
+        top_n = int(request.args.get('top', 20))
+    except ValueError:
+        top_n = 20
+
+    if not tissue:
+        return jsonify({'error': 'tissue parameter is required'}), 400
+
+    # Build sample -> normalized tissue mapping
+    sample_tissue = {}
+    for sample in gene_data.columns:
+        if sample in metadata:
+            sample_tissue[sample] = normalize_tissue_source(metadata[sample]['source'])
+        else:
+            sample_tissue[sample] = 'Unknown'
+
+    # Create samples DataFrame and compute mean expression per tissue for each gene
+    samples_df = gene_data.T.copy()
+    samples_df['tissue'] = samples_df.index.map(lambda s: sample_tissue.get(s, 'Unknown'))
+
+    # group by tissue and compute mean (result: tissues x genes), then transpose -> genes x tissues
+    gene_tissue_means = samples_df.groupby('tissue').mean().T
+
+    if tissue not in gene_tissue_means.columns:
+        return jsonify({'error': f"Tissue '{tissue}' not found. Available tissues: {list(gene_tissue_means.columns)}"}), 404
+
+    # For each gene, compute z-score of the tissue mean relative to mean/std across tissues
+    across_mean = gene_tissue_means.mean(axis=1)
+    across_std = gene_tissue_means.std(axis=1)
+
+    # avoid divide-by-zero
+    across_std_replaced = across_std.replace(0, np.nan)
+
+    z_scores = (gene_tissue_means[tissue] - across_mean) / across_std_replaced
+    z_scores = z_scores.fillna(0)
+
+    df = pd.DataFrame({
+        'gene': z_scores.index,
+        'z': z_scores.values,
+        'mean_in_tissue': gene_tissue_means[tissue].values,
+        'mean_all': across_mean.values
+    }).set_index('gene')
+
+    top_df = df.sort_values('z', ascending=False).head(top_n)
+    bottom_df = df.sort_values('z', ascending=True).head(top_n)
+
+    top_list = [
+        {
+            'gene': idx,
+            'z': float(row['z']),
+            'mean_in_tissue': float(row['mean_in_tissue']),
+            'mean_all': float(row['mean_all'])
+        }
+        for idx, row in top_df.iterrows()
+    ]
+
+    bottom_list = [
+        {
+            'gene': idx,
+            'z': float(row['z']),
+            'mean_in_tissue': float(row['mean_in_tissue']),
+            'mean_all': float(row['mean_all'])
+        }
+        for idx, row in bottom_df.iterrows()
+    ]
+
+    return jsonify({'tissue': tissue, 'top': top_list, 'bottom': bottom_list})
+
+
+@app.route("/tissue_genes")
+def tissue_genes_page():
+    """Render the tissue top/bottom genes interactive page."""
+    # derive list of tissues from metadata
+    tissues = set()
+    for sample_id in gene_data.columns:
+        if sample_id in metadata:
+            tissues.add(normalize_tissue_source(metadata[sample_id]['source']))
+        else:
+            tissues.add('Unknown')
+
+    tissues = sorted(list(tissues))
+    return render_template('tissue_genes.html', tissues=tissues)
 
 
 @app.route("/umap")
