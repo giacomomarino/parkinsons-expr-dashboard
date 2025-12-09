@@ -296,7 +296,9 @@ def tissue_top_genes():
     }).set_index('gene')
 
     top_df = df.sort_values('z', ascending=False).head(top_n)
-    bottom_df = df.sort_values('z', ascending=True).head(top_n)
+    # ensure bottom list does not overlap with top list
+    top_genes = set(top_df.index)
+    bottom_df = df.drop(index=top_genes, errors='ignore').sort_values('z', ascending=True).head(top_n)
 
     top_list = [
         {
@@ -395,4 +397,4 @@ def umap_view():
 load_data()
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
