@@ -1,0 +1,3032 @@
+{
+  "GSM1530726": {
+    "characteristics": "cell type: iPS cell-derived neuronal samples,diferentiation day: ~ day 33,disease: Parkinson's Disease,genotype: Wild Type GBA",
+    "series": "GSE62642",
+    "source": "iPS cell-derived neuronal samples"
+  },
+  "GSM1530727": {
+    "characteristics": "cell type: iPS cell-derived neuronal samples,diferentiation day: ~ day 33,disease: Parkinson's Disease,genotype: Wild Type GBA",
+    "series": "GSE62642",
+    "source": "iPS cell-derived neuronal samples"
+  },
+  "GSM1530732": {
+    "characteristics": "cell type: iPS cell-derived neuronal samples,diferentiation day: ~ day 33,disease: Parkinson's Disease,genotype: GBA +/N370S",
+    "series": "GSE62642",
+    "source": "iPS cell-derived neuronal samples"
+  },
+  "GSM1530733": {
+    "characteristics": "cell type: iPS cell-derived neuronal samples,diferentiation day: ~ day 33,disease: Parkinson's Disease,genotype: GBA +/N370S",
+    "series": "GSE62642",
+    "source": "iPS cell-derived neuronal samples"
+  },
+  "GSM1530734": {
+    "characteristics": "cell type: iPS cell-derived neuronal samples,diferentiation day: ~ day 33,disease: Parkinson's Disease,genotype: GBA +/N370S",
+    "series": "GSE62642",
+    "source": "iPS cell-derived neuronal samples"
+  },
+  "GSM1530735": {
+    "characteristics": "cell type: iPS cell-derived neuronal samples,diferentiation day: ~ day 33,disease: Parkinson's Disease,genotype: GBA +/N370S",
+    "series": "GSE62642",
+    "source": "iPS cell-derived neuronal samples"
+  },
+  "GSM1829607": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: prefrontal cortex (Brodman Area 9)",
+    "series": "GSE71191",
+    "source": "post-mortem prefrontal cortex (Brodman Area 9)"
+  },
+  "GSM2190726": {
+    "characteristics": "status: LRRK2 Parkinson's disease (G2019S mutation),glucose: high 25 mM,gender: male",
+    "series": "GSE82340",
+    "source": "fibroblasts"
+  },
+  "GSM2190732": {
+    "characteristics": "status: sporadic Parkinson's disease,glucose: high 25 mM,gender: female",
+    "series": "GSE82340",
+    "source": "fibroblasts"
+  },
+  "GSM2190741": {
+    "characteristics": "status: LRRK2 Parkinson's disease (G2019S mutation),glucose: low 5 mM,gender: female",
+    "series": "GSE82340",
+    "source": "fibroblasts"
+  },
+  "GSM2247554": {
+    "characteristics": "tissue: neuron,group: Parkinson's disease Patient,clone: 1",
+    "series": "GSE84684",
+    "source": "iPSC-derived neurons"
+  },
+  "GSM2247555": {
+    "characteristics": "tissue: neuron,group: Parkinson's disease Patient,clone: 2",
+    "series": "GSE84684",
+    "source": "iPSC-derived neurons"
+  },
+  "GSM2350789": {
+    "characteristics": "group: Parkinson's disease,age [y]: 44,Sex: male,disease stage [hoehn & yahr]: 1",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350790": {
+    "characteristics": "group: Parkinson's disease,age [y]: 40,Sex: male,disease stage [hoehn & yahr]: 1",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350791": {
+    "characteristics": "group: Parkinson's disease,age [y]: 67,Sex: male,disease stage [hoehn & yahr]: 2",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350792": {
+    "characteristics": "group: Parkinson's disease,age [y]: 53,Sex: male,disease stage [hoehn & yahr]: 2",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350793": {
+    "characteristics": "group: Parkinson's disease,age [y]: 66,Sex: male,disease stage [hoehn & yahr]: 2",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350794": {
+    "characteristics": "group: Parkinson's disease,age [y]: 57,Sex: male,disease stage [hoehn & yahr]: 2",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350795": {
+    "characteristics": "group: Parkinson's disease,age [y]: 47,Sex: male,disease stage [hoehn & yahr]: 1",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350796": {
+    "characteristics": "group: Parkinson's disease,age [y]: 81,Sex: male,disease stage [hoehn & yahr]: 2",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2350797": {
+    "characteristics": "group: Parkinson's disease,age [y]: 61,Sex: male,disease stage [hoehn & yahr]: 1",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM2396973": {
+    "characteristics": "vector: none,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-NEG-CTL-Day5"
+  },
+  "GSM2396974": {
+    "characteristics": "vector: none,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-NEG-CTL-Day5"
+  },
+  "GSM2396975": {
+    "characteristics": "vector: none,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-NEG-CTL-Day5"
+  },
+  "GSM2396976": {
+    "characteristics": "vector: pGK.Brn2.miR-9/9*.miR-124.pGK.Ascl1.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-PBmPA-Day5"
+  },
+  "GSM2396977": {
+    "characteristics": "vector: pGK.Brn2.miR-9/9*.miR-124.pGK.Ascl1.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-PBmPA-Day5"
+  },
+  "GSM2396978": {
+    "characteristics": "vector: pGK.Brn2.miR-9/9*.miR-124.pGK.Ascl1.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-PBmPA-Day5"
+  },
+  "GSM2396979": {
+    "characteristics": "vector: pGK.Brn2.pGK.Ascl1.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-PBPA-Day5"
+  },
+  "GSM2396980": {
+    "characteristics": "vector: pGK.Brn2.pGK.Ascl1.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-PBPA-Day5"
+  },
+  "GSM2396981": {
+    "characteristics": "vector: pGK.Brn2.pGK.Ascl1.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-PBPA-Day5"
+  },
+  "GSM2396982": {
+    "characteristics": "vector: u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-NEG-CTL-Day5"
+  },
+  "GSM2396983": {
+    "characteristics": "vector: u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-NEG-CTL-Day5"
+  },
+  "GSM2396984": {
+    "characteristics": "vector: u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-NEG-CTL-Day5"
+  },
+  "GSM2396985": {
+    "characteristics": "vector: pGK.Brn2.miR-9/9*.miR-124.pGK.Ascl1.WPRE + u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-PBmPA-Day5"
+  },
+  "GSM2396986": {
+    "characteristics": "vector: pGK.Brn2.miR-9/9*.miR-124.pGK.Ascl1.WPRE + u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-PBmPA-Day5"
+  },
+  "GSM2396987": {
+    "characteristics": "vector: pGK.Brn2.miR-9/9*.miR-124.pGK.Ascl1.WPRE + u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-PBmPA-Day5"
+  },
+  "GSM2396988": {
+    "characteristics": "vector: pGK.Brn2.pGK.Ascl1.WPRE + u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-PBPA-Day5"
+  },
+  "GSM2396989": {
+    "characteristics": "vector: pGK.Brn2.pGK.Ascl1.WPRE + u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-PBPA-Day5"
+  },
+  "GSM2396990": {
+    "characteristics": "vector: pGK.Brn2.pGK.Ascl1.WPRE + u6.shRNA-REST.WPRE,starting cell: Adult fibroblast,cell source: Adult dermal fibroblasts, obtained from the Parkinsonâs Disease Research and Huntingtonâs disease clinics at the John van Geest Centre for Brain Repair (Cambridge, UK)",
+    "series": "GSE90068",
+    "source": "C2-REST_sh-PBPA-Day5"
+  },
+  "GSM2402505": {
+    "characteristics": "strain: --,tissue: iPSC-differentiated dopamine neurons,age: Differentiation day 60,genotype: G2019S LRRK2",
+    "series": "GSE90469",
+    "source": "Parkinson's Disease patient-derived dopamine neurons"
+  },
+  "GSM2402506": {
+    "characteristics": "strain: --,tissue: iPSC-differentiated dopamine neurons,age: Differentiation day 60,genotype: G2019S LRRK2",
+    "series": "GSE90469",
+    "source": "Parkinson's Disease patient-derived dopamine neurons"
+  },
+  "GSM2402507": {
+    "characteristics": "strain: --,tissue: iPSC-differentiated dopamine neurons,age: Differentiation day 60,genotype: G2019S LRRK2",
+    "series": "GSE90469",
+    "source": "Parkinson's Disease patient-derived dopamine neurons"
+  },
+  "GSM2405870": {
+    "characteristics": "status: Parkin Parkinson's disease (PRKN mutation),glucose: Patient,gender: male",
+    "series": "GSE90514",
+    "source": "fibroblasts"
+  },
+  "GSM2405871": {
+    "characteristics": "status: Parkin Parkinson's disease (PRKN mutation),glucose: Patient,gender: female",
+    "series": "GSE90514",
+    "source": "fibroblasts"
+  },
+  "GSM2405872": {
+    "characteristics": "status: Parkin Parkinson's disease (PRKN mutation),glucose: Patient,gender: male",
+    "series": "GSE90514",
+    "source": "fibroblasts"
+  },
+  "GSM2405873": {
+    "characteristics": "status: Parkin Parkinson's disease (PRKN mutation),glucose: Patient,gender: female",
+    "series": "GSE90514",
+    "source": "fibroblasts"
+  },
+  "GSM2705985": {
+    "characteristics": "cell type: Adult - Primary skin,group: Parkinson's Disease Patient,clone: 1",
+    "series": "GSE101548",
+    "source": "Skin"
+  },
+  "GSM2705989": {
+    "characteristics": "cell type: Induced pluripotent stem cell,group: Parkinson's Disease Patient,clone: 1",
+    "series": "GSE101548",
+    "source": "iPSCs"
+  },
+  "GSM2705990": {
+    "characteristics": "cell type: Induced pluripotent stem cell,group: Parkinson's Disease Patient,clone: 2",
+    "series": "GSE101548",
+    "source": "iPSCs"
+  },
+  "GSM2705994": {
+    "characteristics": "cell type: Neural progenitor cell,group: Parkinson's Disease Patient,clone: 1",
+    "series": "GSE101548",
+    "source": "iPSC-derived NPCs"
+  },
+  "GSM2705995": {
+    "characteristics": "cell type: Neural progenitor cell,group: Parkinson's Disease Patient,clone: 2",
+    "series": "GSE101548",
+    "source": "iPSC-derived NPCs"
+  },
+  "GSM2705999": {
+    "characteristics": "cell type: neuron,group: Parkinson's Disease Patient,clone: 1",
+    "series": "GSE101548",
+    "source": "iPSC-derived neurons"
+  },
+  "GSM2706000": {
+    "characteristics": "cell type: neuron,group: Parkinson's Disease Patient,clone: 2",
+    "series": "GSE101548",
+    "source": "iPSC-derived neurons"
+  },
+  "GSM2843857": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 88,Sex: M",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM2843858": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 78,Sex: M",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM2843859": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 79,Sex: M",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM2843860": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 91,Sex: M",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM2843861": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 76,Sex: M",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM2843862": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 55,Sex: F",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM2843863": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Brain, subthalamic nucleus,age: 82,Sex: F",
+    "series": "GSE106608",
+    "source": "fresh-frozen brain tissue"
+  },
+  "GSM3209232": {
+    "characteristics": "cell type: Induced pluripotent stem cells,disease state: Parkinson's disease LRRK2 G2019S",
+    "series": "GSE116124",
+    "source": "Skin Fibroblasts"
+  },
+  "GSM3209233": {
+    "characteristics": "cell type: Induced pluripotent stem cells,disease state: Parkinson's disease LRRK2 G2019S",
+    "series": "GSE116124",
+    "source": "Skin Fibroblasts"
+  },
+  "GSM3209236": {
+    "characteristics": "cell type: iPSC-derived astrocytes,disease state: Parkinson's disease LRRK2 G2019S",
+    "series": "GSE116124",
+    "source": "Skin Fibroblasts"
+  },
+  "GSM3209237": {
+    "characteristics": "cell type: iPSC-derived astrocytes,disease state: Parkinson's disease LRRK2 G2019S",
+    "series": "GSE116124",
+    "source": "Skin Fibroblasts"
+  },
+  "GSM3414684": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS190iPD",
+    "series": "GSE120746",
+    "source": "CS190iPD"
+  },
+  "GSM3414685": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS190iPD",
+    "series": "GSE120746",
+    "source": "CS190iPD"
+  },
+  "GSM3414686": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS190iPD",
+    "series": "GSE120746",
+    "source": "CS190iPD"
+  },
+  "GSM3414687": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS194iPD",
+    "series": "GSE120746",
+    "source": "CS194iPD"
+  },
+  "GSM3414688": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS194iPD",
+    "series": "GSE120746",
+    "source": "CS194iPD"
+  },
+  "GSM3414689": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS194iPD",
+    "series": "GSE120746",
+    "source": "CS194iPD"
+  },
+  "GSM3414690": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS200iPD",
+    "series": "GSE120746",
+    "source": "CS200iPD"
+  },
+  "GSM3414691": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS200iPD",
+    "series": "GSE120746",
+    "source": "CS200iPD"
+  },
+  "GSM3414692": {
+    "characteristics": "cell type: iPSC-mDA Neurons,disease state: Parkinson's Disease,cell line: CS200iPD",
+    "series": "GSE120746",
+    "source": "CS200iPD"
+  },
+  "GSM3501959": {
+    "characteristics": "group: Parkinson's disease,age [y]: 70,Sex: male",
+    "series": "GSE88888",
+    "source": "Monocyte cells"
+  },
+  "GSM3552725": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552726": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552727": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552731": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552732": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552733": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552734": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552735": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552737": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552738": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552739": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552743": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552744": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552745": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552746": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552747": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552749": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552750": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552751": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552755": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552756": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552757": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552758": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552759": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552761": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552762": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552763": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552767": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552768": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552769": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552770": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552771": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552773": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552774": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552775": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552779": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552780": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552781": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552782": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552783": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552785": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552786": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552787": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552791": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552792": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552793": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552794": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552795": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552797": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552798": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552799": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552803": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552804": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552805": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552806": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552807": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552809": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552810": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552815": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552816": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552817": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552818": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552819": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552820": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552821": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552822": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552823": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552824": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552825": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552826": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552827": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552828": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552829": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552831": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552832": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552833": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552834": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552835": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552836": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552837": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552838": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552839": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552840": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552841": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552842": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552843": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552844": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552845": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552846": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552847": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552848": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552849": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552850": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552851": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552852": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552853": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552854": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552855": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552856": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552857": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552858": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552859": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552860": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552861": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552862": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552863": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552864": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552865": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552866": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552867": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552868": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552869": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552870": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552871": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552872": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552874": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552877": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552880": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: No",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552882": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552883": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552884": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552885": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552886": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3552887": {
+    "characteristics": "cryopreserved: No,diabetes: Other_Parkinson,Sex: M,patched: Yes",
+    "series": "GSE124742",
+    "source": "pancreatic islets"
+  },
+  "GSM3566955": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566956": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566957": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566958": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566959": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566960": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566961": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566962": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566963": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566964": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566965": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566966": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566967": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566968": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566969": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566970": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3566971": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were transduced with the pB.pA.shREST lentiviral vector (Drouin-Ouellet et al. 2017) the day following plating and allowed to be reprogrammed for 30 days.,cell type: iN",
+    "series": "GSE125239",
+    "source": "iN"
+  },
+  "GSM3566972": {
+    "characteristics": "disease state: Parkinsons Disease,treatment: Fibroblasts were kept 3 days in culture in DMEM, 10 % FBS, 1 % penicillin-streptomycin,cell type: fibroblast",
+    "series": "GSE125239",
+    "source": "fibroblast"
+  },
+  "GSM3666154": {
+    "characteristics": "tissue: Skeletal Muscle,age: 65,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666157": {
+    "characteristics": "tissue: Skeletal Muscle,age: 66,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666160": {
+    "characteristics": "tissue: Skeletal Muscle,age: 67,gender: Female,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666163": {
+    "characteristics": "tissue: Skeletal Muscle,age: 71,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666166": {
+    "characteristics": "tissue: Skeletal Muscle,age: 54,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666169": {
+    "characteristics": "tissue: Skeletal Muscle,age: 76,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666172": {
+    "characteristics": "tissue: Skeletal Muscle,age: 66,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666175": {
+    "characteristics": "tissue: Skeletal Muscle,age: 75,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666178": {
+    "characteristics": "tissue: Skeletal Muscle,age: 60,gender: Female,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666181": {
+    "characteristics": "tissue: Skeletal Muscle,age: 62,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666184": {
+    "characteristics": "tissue: Skeletal Muscle,age: 75,gender: Female,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3666187": {
+    "characteristics": "tissue: Skeletal Muscle,age: 69,gender: Male,group: Parkinson_disease",
+    "series": "GSE128177",
+    "source": "vastus lateralis muscle"
+  },
+  "GSM3900040": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900041": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900042": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900043": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900044": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900045": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900046": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900047": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900048": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900049": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900050": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900051": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900052": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900053": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900054": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: amygdala (AMG)",
+    "series": "GSE133101",
+    "source": "Amygdala parkinson's disease"
+  },
+  "GSM3900063": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900064": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900065": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900066": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900067": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900068": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900069": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900070": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900071": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900072": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900073": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900074": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900075": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: medil temporal gyrus (MTG)",
+    "series": "GSE133101",
+    "source": "MTG parkinson's disease"
+  },
+  "GSM3900086": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900087": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900088": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900089": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900090": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900091": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900092": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900093": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900095": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900096": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900097": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900098": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900099": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3900100": {
+    "characteristics": "diagnosis: Parkinson's disease,tissue: substantia nigra (SN)",
+    "series": "GSE133101",
+    "source": "Substantia Nigra parkinson's disease"
+  },
+  "GSM3984151": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 77,Sex: M,pmi: 6,rin: 7.6,brain_hemisphere: R,symptom_side: R,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984152": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 80,Sex: M,pmi: 7,rin: 6.6,brain_hemisphere: R,symptom_side: R,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984153": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 78,Sex: F,pmi: 22,rin: 6.7,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984154": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 73,Sex: M,pmi: 19,rin: 6,brain_hemisphere: L,symptom_side: R,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984155": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 75,Sex: M,pmi: 3,rin: 7.7,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984156": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 71,Sex: M,pmi: 7,rin: 7.5,brain_hemisphere: L,symptom_side: L,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984157": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 78,Sex: M,pmi: 21,rin: 7.6,brain_hemisphere: L,symptom_side: L,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984158": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 78,Sex: M,pmi: 16,rin: 6.4,brain_hemisphere: R,symptom_side: R,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984159": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 81,Sex: M,pmi: 8,rin: 7.4,brain_hemisphere: L,symptom_side: L,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984160": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 72,Sex: M,pmi: 8,rin: 7.9,brain_hemisphere: R,symptom_side: R,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984161": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 82,Sex: M,pmi: 12,rin: 6.7,brain_hemisphere: L,symptom_side: L,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984162": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 70,Sex: M,pmi: 24,rin: 6.5,brain_hemisphere: L,symptom_side: L,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984163": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 78,Sex: M,pmi: 17,rin: 7.6,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984164": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 67,Sex: M,pmi: 12,rin: 8.1,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984165": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 78,Sex: M,pmi: 31,rin: 7,brain_hemisphere: L,symptom_side: R,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984166": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 69,Sex: M,pmi: 17,rin: 6.2,brain_hemisphere: L,symptom_side: R,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984167": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 83,Sex: F,pmi: 14,rin: 6.9,brain_hemisphere: L,symptom_side: R,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984168": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 81,Sex: M,pmi: 14,rin: 7.2,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984169": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 74,Sex: M,pmi: 12,rin: 6.9,brain_hemisphere: R,symptom_side: R,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984170": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 66,Sex: F,pmi: 19,rin: 8.2,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984171": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 73,Sex: M,pmi: 10,rin: 6.7,brain_hemisphere: R,symptom_side: L,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984172": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 81,Sex: M,pmi: 12,rin: 7.9,brain_hemisphere: L,symptom_side: R,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984173": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 72,Sex: M,pmi: 24,rin: 7.7,brain_hemisphere: L,symptom_side: R,group: Matched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM3984174": {
+    "characteristics": "diagnosis: Parkinsonâs disease (PD),age: 77,Sex: M,pmi: 23,rin: 6.8,brain_hemisphere: R,symptom_side: R,group: Unmatched",
+    "series": "GSE135036,GSE135037",
+    "source": "PD_Brain prefrontal cortex"
+  },
+  "GSM4054768": {
+    "characteristics": "gender: f,disease state: Parkinsonâs disease,tissue: Substantia nigra",
+    "series": "GSE136666",
+    "source": "Substantia nigra"
+  },
+  "GSM4054769": {
+    "characteristics": "gender: f,disease state: Parkinsonâs disease,tissue: Substantia nigra",
+    "series": "GSE136666",
+    "source": "Substantia nigra"
+  },
+  "GSM4054770": {
+    "characteristics": "gender: m,disease state: Parkinsonâs disease,tissue: Substantia nigra",
+    "series": "GSE136666",
+    "source": "Substantia nigra"
+  },
+  "GSM4054771": {
+    "characteristics": "gender: m,disease state: Parkinsonâs disease,tissue: Substantia nigra",
+    "series": "GSE136666",
+    "source": "Substantia nigra"
+  },
+  "GSM4054772": {
+    "characteristics": "gender: m,disease state: Parkinsonâs disease,tissue: Substantia nigra",
+    "series": "GSE136666",
+    "source": "Substantia nigra"
+  },
+  "GSM4054776": {
+    "characteristics": "gender: f,disease state: Parkinsonâs disease,tissue: Putamen",
+    "series": "GSE136666",
+    "source": "Putamen"
+  },
+  "GSM4054777": {
+    "characteristics": "gender: m,disease state: Parkinsonâs disease,tissue: Putamen",
+    "series": "GSE136666",
+    "source": "Putamen"
+  },
+  "GSM4054778": {
+    "characteristics": "gender: m,disease state: Parkinsonâs disease,tissue: Putamen",
+    "series": "GSE136666",
+    "source": "Putamen"
+  },
+  "GSM4094436": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 78,tissue: Amygdala,rna integerity number: 6.1",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094437": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 76,tissue: Amygdala,rna integerity number: 6.5",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094438": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 86,tissue: Amygdala,rna integerity number: 6.5",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094439": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 80,tissue: Amygdala,rna integerity number: 6.6",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094440": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 69,tissue: Amygdala,rna integerity number: 6.8",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094441": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 70,tissue: Amygdala,rna integerity number: 6.8",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094442": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 76,tissue: Amygdala,rna integerity number: 7.1",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094443": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 83,tissue: Amygdala,rna integerity number: 7.1",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094444": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Female,age: 67,tissue: Amygdala,rna integerity number: 7.3",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094445": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 81,tissue: Amygdala,rna integerity number: 7.4",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094446": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 65,tissue: Amygdala,rna integerity number: 7.5",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094447": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 73,tissue: Amygdala,rna integerity number: 7.5",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094449": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 61,tissue: Amygdala,rna integerity number: 8",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094450": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Female,age: 81,tissue: Amygdala,rna integerity number: 8.5",
+    "series": "GSE114517",
+    "source": "Amygdala"
+  },
+  "GSM4094460": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Female,age: 67,tissue: Medial Temporal Gyrus,rna integerity number: 7.2",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094461": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Female,age: 81,tissue: Medial Temporal Gyrus,rna integerity number: 7.2",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094462": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Female,age: 79,tissue: Medial Temporal Gyrus,rna integerity number: 2.9",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094463": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Female,age: 83,tissue: Medial Temporal Gyrus,rna integerity number: 6.4",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094464": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 70,tissue: Medial Temporal Gyrus,rna integerity number: 6.9",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094465": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 61,tissue: Medial Temporal Gyrus,rna integerity number: 7.7",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094466": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 77,tissue: Medial Temporal Gyrus,rna integerity number: 7.4",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094467": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 65,tissue: Medial Temporal Gyrus,rna integerity number: 8.2",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094468": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 73,tissue: Medial Temporal Gyrus,rna integerity number: 7.8",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094469": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 76,tissue: Medial Temporal Gyrus,rna integerity number: 6.2",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094470": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 87,tissue: Medial Temporal Gyrus,rna integerity number: 6.2",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094471": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 86,tissue: Medial Temporal Gyrus,rna integerity number: 6.9",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094472": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 77,tissue: Medial Temporal Gyrus,rna integerity number: 7.5",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4094473": {
+    "characteristics": "disease state: Parkinson's disease+Dementia,Sex: Male,age: 83,tissue: Medial Temporal Gyrus,rna integerity number: 6.8",
+    "series": "GSE114517",
+    "source": "Medial Temporal Gyrus"
+  },
+  "GSM4154220": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 65,Sex: Male,subject_id: PD-01",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154223": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 66,Sex: Male,subject_id: PD-02-0",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154224": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 66,Sex: Male,subject_id: PD-02-16,treatment: 16-wk high intensity resistance training",
+    "series": "GSE140089",
+    "source": "Post-Training_Parkinsons_Disease"
+  },
+  "GSM4154227": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 67,Sex: Female,subject_id: PD-03-0",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154228": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 67,Sex: Female,subject_id: PD-03-16,treatment: 16-wk high intensity resistance training",
+    "series": "GSE140089",
+    "source": "Post-Training_Parkinsons_Disease"
+  },
+  "GSM4154231": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 71,Sex: Male,subject_id: PD-04-0",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154232": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 71,Sex: Male,subject_id: PD-04-16,treatment: 16-wk high intensity resistance training",
+    "series": "GSE140089",
+    "source": "Post-Training_Parkinsons_Disease"
+  },
+  "GSM4154235": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 54,Sex: Male,subject_id: PD-05-0",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154236": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 54,Sex: Male,subject_id: PD-05-16,treatment: 16-wk high intensity resistance training",
+    "series": "GSE140089",
+    "source": "Post-Training_Parkinsons_Disease"
+  },
+  "GSM4154239": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 76,Sex: Male,subject_id: PD-06-0",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154240": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 76,Sex: Male,subject_id: PD-06-16,treatment: 16-wk high intensity resistance training",
+    "series": "GSE140089",
+    "source": "Post-Training_Parkinsons_Disease"
+  },
+  "GSM4154243": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 66,Sex: Male,subject_id: PD-07",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154246": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 75,Sex: Male,subject_id: PD-08",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154249": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 60,Sex: Female,subject_id: PD-09",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154252": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 62,Sex: Male,subject_id: PD-10",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154255": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 75,Sex: Female,subject_id: PD-11",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4154258": {
+    "characteristics": "disease state: Parkinson's Disease,tissue: Skeletal Muscle (vastus lateralis muscle),age: 69,Sex: Male,subject_id: PD-12",
+    "series": "GSE140089",
+    "source": "Basal_Parkinsons_Disease"
+  },
+  "GSM4230640": {
+    "characteristics": "cell type: Sporadic Parkinsons Disease patient iPSC Midbrain Organoid derived NPC",
+    "series": "GSE142505",
+    "source": "Sporadic Parkinsons Disease patient iPSC Midbrain Organoid derived NPC"
+  },
+  "GSM4291546": {
+    "characteristics": "case number (refer to table in paper): 49,tissue: midbrain,brain region: substantia nigra pars compacta,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "substantia nigra pars compacta"
+  },
+  "GSM4291547": {
+    "characteristics": "case number (refer to table in paper): 50,tissue: midbrain,brain region: substantia nigra pars compacta,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "substantia nigra pars compacta"
+  },
+  "GSM4291548": {
+    "characteristics": "case number (refer to table in paper): 51,tissue: midbrain,brain region: substantia nigra pars compacta,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "substantia nigra pars compacta"
+  },
+  "GSM4291549": {
+    "characteristics": "case number (refer to table in paper): 52,tissue: midbrain,brain region: substantia nigra pars compacta,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "substantia nigra pars compacta"
+  },
+  "GSM4291550": {
+    "characteristics": "case number (refer to table in paper): 53,tissue: midbrain,brain region: substantia nigra pars compacta,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "substantia nigra pars compacta"
+  },
+  "GSM4291551": {
+    "characteristics": "case number (refer to table in paper): 49,tissue: midbrain,brain region: ventral tegmental area,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "ventral tegmental area"
+  },
+  "GSM4291552": {
+    "characteristics": "case number (refer to table in paper): 51,tissue: midbrain,brain region: ventral tegmental area,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "ventral tegmental area"
+  },
+  "GSM4291553": {
+    "characteristics": "case number (refer to table in paper): 52,tissue: midbrain,brain region: ventral tegmental area,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "ventral tegmental area"
+  },
+  "GSM4291554": {
+    "characteristics": "case number (refer to table in paper): 53,tissue: midbrain,brain region: ventral tegmental area,disease status: Parkinson disease,age group: 3",
+    "series": "GSE114918",
+    "source": "ventral tegmental area"
+  },
+  "GSM4748331": {
+    "characteristics": "tissue: Frontal Cortex,diagnosis: Parkinson disease,braak stage: 4-5",
+    "series": "GSE156928",
+    "source": "Frontal Cortex, post-mortem sample, Parkinson Disease"
+  },
+  "GSM4748332": {
+    "characteristics": "tissue: Frontal Cortex,diagnosis: Parkinson disease,braak stage: 4-5",
+    "series": "GSE156928",
+    "source": "Frontal Cortex, post-mortem sample, Parkinson Disease"
+  },
+  "GSM4748334": {
+    "characteristics": "tissue: Frontal Cortex,diagnosis: Parkinson disease,braak stage: 4-5",
+    "series": "GSE156928",
+    "source": "Frontal Cortex, post-mortem sample, Parkinson Disease"
+  },
+  "GSM4748335": {
+    "characteristics": "tissue: Frontal Cortex,diagnosis: Parkinson disease,braak stage: 4-5",
+    "series": "GSE156928",
+    "source": "Frontal Cortex, post-mortem sample, Parkinson Disease"
+  },
+  "GSM4748337": {
+    "characteristics": "tissue: Frontal Cortex,diagnosis: Parkinson disease,braak stage: 4-5",
+    "series": "GSE156928",
+    "source": "Frontal Cortex, post-mortem sample, Parkinson Disease"
+  },
+  "GSM4748344": {
+    "characteristics": "tissue: Frontal Cortex,diagnosis: Parkinson disease,braak stage: 4-5",
+    "series": "GSE156928",
+    "source": "Frontal Cortex, post-mortem sample, Parkinson Disease"
+  },
+  "GSM4774931": {
+    "characteristics": "disease state: Idiopathic Parkinson's disease (IPD),age at death: 84,Sex: F,pmi (h): 25,tissue: Midbrain,molecule subtype: nuclear RNA",
+    "series": "GSE157783",
+    "source": "IPD_midbrain"
+  },
+  "GSM4870958": {
+    "characteristics": "disease state: Parkinson,tissue: plasma,age: 65 year old,treatment: untreated",
+    "series": "GSE160299",
+    "source": "plasma"
+  },
+  "GSM4870959": {
+    "characteristics": "disease state: Parkinson,tissue: plasma,age: 68 year old,treatment: untreated",
+    "series": "GSE160299",
+    "source": "plasma"
+  },
+  "GSM4870960": {
+    "characteristics": "disease state: Parkinson,tissue: plasma,age: 59 year old,treatment: untreated",
+    "series": "GSE160299",
+    "source": "plasma"
+  },
+  "GSM4870961": {
+    "characteristics": "disease state: Parkinson,tissue: plasma,age: 72 year old,treatment: untreated",
+    "series": "GSE160299",
+    "source": "plasma"
+  },
+  "GSM4891619": {
+    "characteristics": "disease: Parkinson's Disease",
+    "series": "GSE161199",
+    "source": "Blood"
+  },
+  "GSM4891620": {
+    "characteristics": "disease: Parkinson's Disease",
+    "series": "GSE161199",
+    "source": "Blood"
+  },
+  "GSM4891621": {
+    "characteristics": "disease: Parkinson's Disease",
+    "series": "GSE161199",
+    "source": "Blood"
+  },
+  "GSM4891622": {
+    "characteristics": "disease: Parkinson's Disease",
+    "series": "GSE161199",
+    "source": "Blood"
+  },
+  "GSM4891623": {
+    "characteristics": "disease: Parkinson's Disease",
+    "series": "GSE161199",
+    "source": "Blood"
+  },
+  "GSM4891624": {
+    "characteristics": "disease: Parkinson's Disease",
+    "series": "GSE161199",
+    "source": "Blood"
+  },
+  "GSM5106731": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106732": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: male,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106733": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: male,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106734": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: high 25 mM,gender: male,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106737": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106738": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106740": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 2",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106742": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106743": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: male,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106744": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: male,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106745": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: low 5 mM,gender: male,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106748": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106749": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106751": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 3",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106753": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106754": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: high 25 mM,gender: male,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106755": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: male,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106756": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106757": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: high 25 mM,gender: female,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106763": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106764": {
+    "characteristics": "disease state: LRRK2 Parkinson's disease (G2019S mutation),cell type: fibroblasts,glucose: low 5 mM,gender: male,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106765": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: male,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106766": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5106767": {
+    "characteristics": "disease state: sporadic Parkinson's disease,cell type: fibroblasts,glucose: low 5 mM,gender: female,batch: 4",
+    "series": "GSE167529",
+    "source": "fibroblasts"
+  },
+  "GSM5144792": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Female,age at death (years): 66,post-mortem delay (h: m:s): 07:10:00,braak: 1,amyloid: N/A,braak lb: 5,apoe: N/A,ph-csf: 6.65,brain weight (g): 1300",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144793": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Male,age at death (years): 75,post-mortem delay (h: m:s): 05:30:00,braak: 1,amyloid: A,braak lb: 4,apoe: N/A,ph-csf: 6.63,brain weight (g): 1320",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144794": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Male,age at death (years): 70,post-mortem delay (h: m:s): 06:50:00,braak: 3,amyloid: B,braak lb: 4,apoe: N/A,ph-csf: 6.19,brain weight (g): 1275",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144795": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Male,age at death (years): 86,post-mortem delay (h: m:s): 04:50:00,braak: 2,amyloid: N/A,braak lb: N/A,apoe: N/A,ph-csf: 6.59,brain weight (g): 1205",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144797": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Male,age at death (years): 65,post-mortem delay (h: m:s): 04:50:00,braak: 0,amyloid: O,braak lb: 6,apoe: N/A,ph-csf: 6.68,brain weight (g): 1380",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144798": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Female,age at death (years): 87,post-mortem delay (h: m:s): 07:55:00,braak: 3,amyloid: O,braak lb: 5,apoe: N/A,ph-csf: 7.14,brain weight (g): 1056",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144799": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Female,age at death (years): 77,post-mortem delay (h: m:s): 08:25:00,braak: 2,amyloid: N/A,braak lb: 6,apoe: N/A,ph-csf: 6.6,brain weight (g): 1091",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5144800": {
+    "characteristics": "disease state: Parkinson's disease,tissue: Substantia nigra,gender: Male,age at death (years): 73,post-mortem delay (h: m:s): 06:50:00,braak: 3,amyloid: N/A,braak lb: 6,apoe: N/A,ph-csf: 6.65,brain weight (g): 1370",
+    "series": "GSE168496",
+    "source": "Post-mortem substantia nigra"
+  },
+  "GSM5213623": {
+    "characteristics": "cell type: Dopaminergic neurons,group: Parkinson's disease",
+    "series": "GSE169755",
+    "source": "Brain"
+  },
+  "GSM5213624": {
+    "characteristics": "cell type: Dopaminergic neurons,group: Parkinson's disease",
+    "series": "GSE169755",
+    "source": "Brain"
+  },
+  "GSM5213627": {
+    "characteristics": "cell type: Dopaminergic neurons,group: Parkinson's disease",
+    "series": "GSE169755",
+    "source": "Brain"
+  },
+  "GSM5213628": {
+    "characteristics": "cell type: Dopaminergic neurons,group: Parkinson's disease",
+    "series": "GSE169755",
+    "source": "Brain"
+  },
+  "GSM5213633": {
+    "characteristics": "cell type: Dopaminergic neurons,group: Parkinson's disease",
+    "series": "GSE169755",
+    "source": "Brain"
+  },
+  "GSM5213634": {
+    "characteristics": "cell type: Dopaminergic neurons,group: Parkinson's disease",
+    "series": "GSE169755",
+    "source": "Brain"
+  },
+  "GSM5255129": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Two dimensional (2D),experiment number: 1",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255130": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Two dimensional (2D),experiment number: 1",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255136": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 1",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255137": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 1",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255138": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 1",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255139": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 1",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255146": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Two dimensional (2D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255147": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Two dimensional (2D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255148": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Two dimensional (2D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255149": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: Wild Type,parkinson's disease (pd) status: Healthy,culture condition: Two dimensional (2D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255150": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: Wild Type,parkinson's disease (pd) status: Healthy,culture condition: Two dimensional (2D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255157": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255158": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255159": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255160": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: LRRK2 G2019S,parkinson's disease (pd) status: PD,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255161": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: Wild Type,parkinson's disease (pd) status: Healthy,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255162": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: Wild Type,parkinson's disease (pd) status: Healthy,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5255163": {
+    "characteristics": "cell type: hiPSC-derived dopaminergic neurons,genotype: Wild Type,parkinson's disease (pd) status: Healthy,culture condition: Three dimensional (3D),experiment number: 2",
+    "series": "GSE172409",
+    "source": "dopaminergic neurons"
+  },
+  "GSM5482220": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A),disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482221": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A),disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482222": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A),disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482223": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: homozygous deletion of 8 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482224": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: homozygous deletion of 8 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482225": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: homozygous deletion of 8 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482226": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: heterozygous deletion of 2 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482227": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: heterozygous deletion of 2 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482228": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: heterozygous deletion of 2 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "neural progenitors"
+  },
+  "GSM5482236": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A),disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482237": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A),disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482238": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: homozygous deletion of 8 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482239": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: homozygous deletion of 8 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482240": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: homozygous deletion of 8 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482241": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: heterozygous deletion of 2 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482242": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: heterozygous deletion of 2 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5482243": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: PARK2: heterozygous deletion of 2 exon,disease: Parkinson's disease",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5492090": {
+    "characteristics": "cell type: iPSC,disease state: Parkinsonâs disease (PD),treatment: untreated,derived from: Skin",
+    "series": "GSE181180",
+    "source": "iPSC"
+  },
+  "GSM5492091": {
+    "characteristics": "cell type: iPSC,disease state: Parkinsonâs disease (PD),treatment: untreated,derived from: Skin",
+    "series": "GSE181180",
+    "source": "iPSC"
+  },
+  "GSM5558395": {
+    "characteristics": "cell type: iPSC-derived neural stem cell,genotype: LRRK2 G2019S,disease state: Parkinson's disease,passages: passage 1",
+    "series": "GSE183499",
+    "source": "Neural Stem Cell"
+  },
+  "GSM5558396": {
+    "characteristics": "cell type: iPSC-derived neural stem cell,genotype: LRRK2 G2020S,disease state: Parkinson's disease,passages: passage 13",
+    "series": "GSE183499",
+    "source": "Neural Stem Cell"
+  },
+  "GSM5558400": {
+    "characteristics": "cell type: iPSC-derived neural stem cell,genotype: LRRK2 G2019S,disease state: Parkinson's disease,passages: passage 2",
+    "series": "GSE183499",
+    "source": "Neural Stem Cell"
+  },
+  "GSM5558401": {
+    "characteristics": "cell type: iPSC-derived neural stem cell,genotype: LRRK2 G2020S,disease state: Parkinson's disease,passages: passage 2",
+    "series": "GSE183499",
+    "source": "Neural Stem Cell"
+  },
+  "GSM5558402": {
+    "characteristics": "cell type: iPSC-derived neural stem cell,genotype: LRRK2 G2021S,disease state: Parkinson's disease,passages: passage 2",
+    "series": "GSE183499",
+    "source": "Neural Stem Cell"
+  },
+  "GSM5602316": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBGK,age: 74,gender: Male,race: White,ethnicity: Hispanic or Latino,postmortem interval hours: 24.08,braak stage: Stage II",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602317": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBBC,age: 90,gender: Male,race: White,ethnicity: Not Hispanic or Latino,postmortem interval hours: 21.3,braak stage: Stage IV",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602319": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBOX,age: 82,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 4.2,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602320": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBQF,age: 83,gender: Female,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 29.8,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602321": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBOQ,age: 91,gender: Female,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 19.5,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602322": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBHP,age: 79,gender: Male,race: White,ethnicity: Hispanic or Latino,postmortem interval hours: 11.36,braak stage: Stage III",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602323": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBED,age: 71,gender: Female,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 30.05,braak stage: Stage III",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602324": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease,brain bank donor id: HBHV,age: 79,gender: Female,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 5.05,braak stage: Stage III",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602325": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBIW,age: 71,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 16.2,braak stage: Stage IV",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602326": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBNN,age: 69,gender: Female,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 17.5,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602330": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease,brain bank donor id: HBEH,age: 73,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 23.92,braak stage: N/A",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602331": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease,brain bank donor id: HBCX,age: 81,gender: Female,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 32.4,braak stage: N/A",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602332": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease,brain bank donor id: HBFS,age: 91,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 16.06,braak stage: N/A",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602333": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBHD,age: 77,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 28.75,braak stage: Stage II",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602336": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBQH,age: 78,gender: Male,race: White,ethnicity: Hispanic or Latino,postmortem interval hours: 6.82,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602337": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBRR,age: 91,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 20.91,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602338": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease,brain bank donor id: HAAB,age: 73,gender: Male,race: White,ethnicity: Not Hispanic or Latino,postmortem interval hours: 12.25,braak stage: Stage IV",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602339": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBIV,age: 87,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 24.25,braak stage: Stage IV",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602341": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBNJ,age: 84,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 23.1,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602343": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease,brain bank donor id: HBRE,age: 69,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 7.55,braak stage: Stage II",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602346": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBNX,age: 78,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 20.41,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5602347": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBNX,age: 78,gender: Male,race: White,ethnicity: Not Hispanic or  Latino,postmortem interval hours: 20.41,braak stage: Stage VI",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM5660930": {
+    "characteristics": "genotype: AST23,condition: Parkinsonâs Disease,cell types: mixed cell types",
+    "series": "GSE186780",
+    "source": "midbrain organoid"
+  },
+  "GSM5824069": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: normal,subject status: Parkinson's disease patient",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5824070": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: normal,subject status: Parkinson's disease patient",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5824071": {
+    "characteristics": "cell type: neurons presumably dopaminergic,genotype: normal,subject status: Parkinson's disease patient",
+    "series": "GSE181029",
+    "source": "terminally differentiated neurons"
+  },
+  "GSM5831574": {
+    "characteristics": "age: 56,Sex: Female,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831575": {
+    "characteristics": "age: 63,Sex: Female,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831578": {
+    "characteristics": "age: 69,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831579": {
+    "characteristics": "age: 65,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831580": {
+    "characteristics": "age: 68,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831581": {
+    "characteristics": "age: 50,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831588": {
+    "characteristics": "age: 56,Sex: Female,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831589": {
+    "characteristics": "age: 63,Sex: Female,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831590": {
+    "characteristics": "age: 68,Sex: Female,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831591": {
+    "characteristics": "age: 61,Sex: Female,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831592": {
+    "characteristics": "age: 69,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831593": {
+    "characteristics": "age: 65,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831594": {
+    "characteristics": "age: 68,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5831595": {
+    "characteristics": "age: 50,Sex: Male,disease state: Parkinson's disease",
+    "series": "GSE194245",
+    "source": "Peripheral blood B cells"
+  },
+  "GSM5970836": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970837": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970838": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970839": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970840": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970841": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970842": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970843": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970845": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970846": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970847": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h0",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970848": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970849": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970850": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970851": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970852": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970853": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970856": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970857": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970858": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970859": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h1",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970860": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970861": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970862": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970863": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970864": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970865": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970866": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970867": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970868": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970869": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970870": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970871": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h3",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970872": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970873": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970874": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970875": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970876": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970877": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970878": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970879": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970880": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970881": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970882": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970883": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h6",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970884": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970885": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970886": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970887": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970888": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970889": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_2COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970890": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970891": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970892": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFno,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970893": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970894": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM5970895": {
+    "characteristics": "cell type: Patient derived Ngn2 induced cortical neurons,snca genotype: SNCA_4COPY,disease state: Parkinson's Disease model,pff treatment: PFFyes,timepoint: h12",
+    "series": "GSE199349",
+    "source": "Patient derived Ngn2 induced cortical neurons"
+  },
+  "GSM6042297": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBDC,age: 66,gender: Male,race: White,ethnicity: Not Hispanic,postmortem interval hours: 29.85,braak stage: Stage IV",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM6042298": {
+    "characteristics": "tissue: Substanstia nigra,disease state: Parkinson's Disease Dementia,brain bank donor id: HBRI,age: 76,gender: Male,race: White,ethnicity: Not Hispanic,postmortem interval hours: 13.66,braak stage: Stage II",
+    "series": "GSE184950",
+    "source": "Human postmortem brain sample"
+  },
+  "GSM6208917": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A) + full-length copy of cDNA PARK2 under (minimal CMV + TetO) promoter,subject status: Parkinson's disease (PD) patient",
+    "series": "GSE205235",
+    "source": "neural progenitors"
+  },
+  "GSM6208918": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A) + full-length copy of cDNA PARK2 under (minimal CMV + TetO) promoter,subject status: Parkinson's disease (PD) patient",
+    "series": "GSE205235",
+    "source": "neural progenitors"
+  },
+  "GSM6208919": {
+    "characteristics": "cell type: neural progenitors,genotype: PARK2: 2 exon (del 202-203 AG), 1 intron (splicing mutation IVS1+1G/A) + full-length copy of cDNA PARK2 under (minimal CMV + TetO) promoter,subject status: Parkinson's disease (PD) patient",
+    "series": "GSE205235",
+    "source": "neural progenitors"
+  },
+  "GSM6250336": {
+    "characteristics": "tissue: Substantia nigra pars compacta,disease state: Parkinson's disease",
+    "series": "GSE206308",
+    "source": "Substantia nigra pars compacta"
+  },
+  "GSM6250337": {
+    "characteristics": "tissue: Substantia nigra pars compacta,disease state: Parkinson's disease",
+    "series": "GSE206308",
+    "source": "Substantia nigra pars compacta"
+  },
+  "GSM6250338": {
+    "characteristics": "tissue: Substantia nigra pars compacta,disease state: Parkinson's disease",
+    "series": "GSE206308",
+    "source": "Substantia nigra pars compacta"
+  },
+  "GSM6250339": {
+    "characteristics": "tissue: Substantia nigra pars compacta,disease state: Parkinson's disease",
+    "series": "GSE206308",
+    "source": "Substantia nigra pars compacta"
+  },
+  "GSM6267368": {
+    "characteristics": "tissue: Substantia nigra,subject status: Parkinson's disease",
+    "series": "GSE206961",
+    "source": "Substantia nigra"
+  },
+  "GSM6310741": {
+    "characteristics": "cell line: Induced pluripotent stem cells,cell type: Astrocytes,disease: Parkinson's disease LRRK2 G2019S,treatment: astrocyte differentiation",
+    "series": "GSE207713",
+    "source": "Induced pluripotent stem cells"
+  },
+  "GSM6310742": {
+    "characteristics": "cell line: Induced pluripotent stem cells,cell type: Astrocytes,disease: Parkinson's disease LRRK2 G2019S,treatment: astrocyte differentiation",
+    "series": "GSE207713",
+    "source": "Induced pluripotent stem cells"
+  },
+  "GSM6310745": {
+    "characteristics": "cell line: Induced pluripotent stem cells,cell type: Astrocytes,disease: Parkinson's disease LRRK2 G2019S,treatment: astrocyte differentiation",
+    "series": "GSE207713",
+    "source": "Induced pluripotent stem cells"
+  },
+  "GSM6310746": {
+    "characteristics": "cell line: Induced pluripotent stem cells,cell type: Astrocytes,disease: Parkinson's disease LRRK2 G2019S,treatment: astrocyte differentiation",
+    "series": "GSE207713",
+    "source": "Induced pluripotent stem cells"
+  },
+  "GSM6310747": {
+    "characteristics": "cell line: Induced pluripotent stem cells,cell type: Astrocytes,disease: Parkinson's disease LRRK2 G2019S,treatment: astrocyte differentiation",
+    "series": "GSE207713",
+    "source": "Induced pluripotent stem cells"
+  },
+  "GSM6310748": {
+    "characteristics": "cell line: Induced pluripotent stem cells,cell type: Astrocytes,disease: Parkinson's disease LRRK2 G2019S,treatment: astrocyte differentiation",
+    "series": "GSE207713",
+    "source": "Induced pluripotent stem cells"
+  },
+  "GSM6341644": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 1 â replication 1"
+  },
+  "GSM6341645": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 1 â replication 2"
+  },
+  "GSM6341646": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 1 â replication 3"
+  },
+  "GSM6341647": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 1 â replication 4"
+  },
+  "GSM6341648": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 1 â replication 5"
+  },
+  "GSM6341649": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 1 â replication 6"
+  },
+  "GSM6341650": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 1 â replication 1"
+  },
+  "GSM6341651": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 1 â replication 2"
+  },
+  "GSM6341652": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 1 â replication 3"
+  },
+  "GSM6341653": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 1 â replication 4"
+  },
+  "GSM6341654": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 1 â replication 5"
+  },
+  "GSM6341655": {
+    "characteristics": "tissue: blood,batch: Batch 1,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 1 â replication 6"
+  },
+  "GSM6341656": {
+    "characteristics": "tissue: blood,batch: Batch 2,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 2 â replication 1"
+  },
+  "GSM6341657": {
+    "characteristics": "tissue: blood,batch: Batch 2,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 2 â replication 1"
+  },
+  "GSM6341658": {
+    "characteristics": "tissue: blood,batch: Batch 2,parkinson status: PD",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin with parkinson 3 â replication 1"
+  },
+  "GSM6341659": {
+    "characteristics": "tissue: blood,batch: Batch 2,parkinson status: control",
+    "series": "GSE208347",
+    "source": "transcriptome of blood of twin control 3 â replication 1"
+  },
+  "GSM6372123": {
+    "characteristics": "cell line: GBA_309,cell type: Midbrain organoids,genotype: wt/ GBA-N370S,Sex: Male,age: 69,disease: Parkinson's disease (PD)",
+    "series": "GSE208783,GSE208784",
+    "source": "GBA_309"
+  },
+  "GSM6372124": {
+    "characteristics": "cell line: GBA_309,cell type: Midbrain organoids,genotype: wt/ GBA-N370S,Sex: Male,age: 69,disease: Parkinson's disease (PD)",
+    "series": "GSE208783,GSE208784",
+    "source": "GBA_309"
+  },
+  "GSM6372125": {
+    "characteristics": "cell line: GBA_309,cell type: Midbrain organoids,genotype: wt/ GBA-N370S,Sex: Male,age: 69,disease: Parkinson's disease (PD)",
+    "series": "GSE208783,GSE208784",
+    "source": "GBA_309"
+  },
+  "GSM6940195": {
+    "characteristics": "disease state: Early Parkinson's disease (PD),tissue: blood,cell type: peripheral blood mononuclear cell",
+    "series": "GSE223138",
+    "source": "blood"
+  },
+  "GSM7728941": {
+    "characteristics": "cell line: Familial Parkinson patient-derived induced pluripotent stem cell line with heterozygous A53T mutation in SNCA gene,genotype: A53T in SNCA,treatment: in vitro",
+    "series": "GSE241437",
+    "source": "Familial Parkinson patient-derived induced pluripotent stem cell line with heterozygous A53T mutation in SNCA gene"
+  },
+  "GSM7728947": {
+    "characteristics": "cell line: Familial Parkinson patient-derived induced pluripotent stem cell line with heterozygous A53T mutation in SNCA gene,genotype: A53T in SNCA,treatment: transplanted into mouse brain",
+    "series": "GSE241437",
+    "source": "Familial Parkinson patient-derived induced pluripotent stem cell line with heterozygous A53T mutation in SNCA gene"
+  },
+  "GSM999575": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 72",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999576": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 68",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999577": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 82",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999578": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 84",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999579": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 80",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999580": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 86",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999581": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: F,age at death (y): 87",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999582": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 81",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999583": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: F,age at death (y): 76",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999584": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 75",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999585": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 70",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999586": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: F,age at death (y): 77",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999587": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 71",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999588": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: F,age at death (y): 80",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999589": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 85",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999590": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: M,age at death (y): 77",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  },
+  "GSM999591": {
+    "characteristics": "tissue: Human brain cortex (BA9),disease state: Parkinson's Disease PD,gender: F,age at death (y): 81",
+    "series": "GSE40710",
+    "source": "Brain cortex"
+  }
+}
