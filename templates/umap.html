@@ -74,10 +74,43 @@
                 color: #666;
                 font-size: 14px;
             }
+            .viz-toggle {
+                display: flex;
+                gap: 10px;
+                margin: 20px 0;
+            }
+            .viz-button {
+                padding: 12px 24px;
+                font-size: 16px;
+                border: 2px solid #2196F3;
+                border-radius: 5px;
+                background-color: white;
+                color: #2196F3;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all 0.3s;
+                display: inline-block;
+            }
+            .viz-button:hover {
+                background-color: #e3f2fd;
+            }
+            .viz-button.active {
+                background-color: #2196F3;
+                color: white;
+            }
         </style>
     </head>
     <body>
-        <h1>UMAP Visualization of Gene Expression Data</h1>
+        <h1>Dimensionality Reduction Visualization</h1>
+        
+        <div class="viz-toggle">
+            <a href="/umap?type=umap" class="viz-button {% if (viz_type is defined and viz_type == 'umap') or (viz_type is not defined) %}active{% endif %}">
+                UMAP
+            </a>
+            <a href="/umap?type=pca" class="viz-button {% if viz_type is defined and viz_type == 'pca' %}active{% endif %}">
+                PCA
+            </a>
+        </div>
         
         {% if error %}
             <div class="error">
@@ -88,6 +121,16 @@
                 <p>
                     This visualization shows <strong>{{ total_samples }}</strong> samples from the Parkinson's disease gene expression dataset.
                     Each point represents a sample, colored by its tissue type.
+                </p>
+                {% if viz_type is defined and viz_type == 'pca' %}
+                <p style="color: #666; font-style: italic;">
+                    PCA (Principal Component Analysis) reduces the dimensionality of the gene expression data to two principal components.
+                </p>
+                {% else %}
+                <p style="color: #666; font-style: italic;">
+                    UMAP (Uniform Manifold Approximation and Projection) is a nonlinear dimensionality reduction technique that preserves local and global structure.
+                </p>
+                {% endif %}
                 <p style="color: #666; font-style: italic;">
                     Hover over points to see sample IDs and study information.
                 </p>

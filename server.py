@@ -7,6 +7,7 @@ import plotly.express as px
 import re
 import os
 from umap import UMAP
+from sklearn.decomposition import PCA
 
 app = Flask(__name__)
 
@@ -16,10 +17,12 @@ metadata = None
 genes_list = []
 umap_results = None
 umap_df = None
+pca_results = None
+pca_df = None
 
 def load_data():
     """Load gene expression data and metadata on startup"""
-    global gene_data, metadata, genes_list, umap_results, umap_df
+    global gene_data, metadata, genes_list, umap_results, umap_df, pca_results, pca_df
     
     print("Loading gene expression data...")
     data_path = os.path.join(os.path.dirname(__file__), 'data', 'pariksons_gene_counts_filtered_norm.tsv')
@@ -46,6 +49,19 @@ def load_data():
     umap_df['gse'] = umap_df.index.map(lambda x: metadata[x]['series'] if x in metadata else 'Unknown')
     
     print("UMAP computation complete!")
+    
+    # Compute PCA
+    print("Computing PCA...")
+    pca = PCA(n_components=2, random_state=42)
+    pca_results = pca.fit_transform(gene_data.T)
+    
+    # Create PCA dataframe with metadata
+    pca_df = pd.DataFrame(pca_results, index=gene_data.columns, columns=['PC1', 'PC2'])
+    pca_df['sample_id'] = pca_df.index
+    pca_df['tissue'] = pca_df.index.map(lambda x: normalize_tissue_source(metadata[x]['source']) if x in metadata else 'Unknown')
+    pca_df['gse'] = pca_df.index.map(lambda x: metadata[x]['series'] if x in metadata else 'Unknown')
+    
+    print(f"PCA computation complete! Explained variance: PC1={pca.explained_variance_ratio_[0]:.2%}, PC2={pca.explained_variance_ratio_[1]:.2%}")
 
 # tissue mapping I did from problem-set-3/exercise_5.py
 tissue_mapping = {
@@ -340,19 +356,39 @@ def tissue_genes_page():
 
 @app.route("/umap")
 def umap_view():
-    """Display interactive UMAP visualization colored by tissue type"""
-    if umap_df is None:
-        return render_template("umap.html", error="UMAP data not available")
+    """Display interactive UMAP or PCA visualization colored by tissue type"""
+    viz_type = request.args.get('type', 'umap').lower()
+    
+    if viz_type == 'pca':
+        if pca_df is None:
+            return render_template("umap.html", error="PCA data not available", viz_type=viz_type)
+        
+        df = pca_df
+        x_col = 'PC1'
+        y_col = 'PC2'
+        title = 'PCA Visualization of Gene Expression Data<br><sub>Colored by Tissue Type</sub>'
+        x_label = 'PC1'
+        y_label = 'PC2'
+    else:
+        if umap_df is None:
+            return render_template("umap.html", error="UMAP data not available", viz_type=viz_type)
+        
+        df = umap_df
+        x_col = 'UMAP_1'
+        y_col = 'UMAP_2'
+        title = 'UMAP Visualization of Gene Expression Data<br><sub>Colored by Tissue Type</sub>'
+        x_label = 'UMAP 1'
+        y_label = 'UMAP 2'
     
     # create interactive plotly scatter plot
     fig = px.scatter(
-        umap_df,
-        x='UMAP_1',
-        y='UMAP_2',
+        df,
+        x=x_col,
+        y=y_col,
         color='tissue',
         hover_data=['sample_id', 'gse'],
-        title='UMAP Visualization of Gene Expression Data Colored by Tissue Type',
-        labels={'UMAP_1': 'UMAP 1', 'UMAP_2': 'UMAP 2', 'tissue': 'Tissue Type'},
+        title=title,
+        labels={x_col: x_label, y_col: y_label, 'tissue': 'Tissue Type'},
         height=700,
         width=1100
     )
@@ -362,7 +398,7 @@ def umap_view():
     fig.update_layout(
         plot_bgcolor='white',
         title={
-            'text': 'UMAP Visualization of Gene Expression Data<br><sub>Colored by Tissue Type</sub>',
+            'text': title,
             'x': 0.5,
             'xanchor': 'center',
             'font': {'size': 20, 'color': '#333'}
@@ -384,12 +420,13 @@ def umap_view():
     
     plot_html = fig.to_html(full_html=False, include_plotlyjs='cdn')
     
-    tissue_counts = umap_df['tissue'].value_counts().to_dict()
+    tissue_counts = df['tissue'].value_counts().to_dict()
     
     return render_template("umap.html", 
                          plot_html=plot_html,
                          tissue_counts=tissue_counts,
-                         total_samples=len(umap_df),
+                         total_samples=len(df),
+                         viz_type=viz_type,
                          error=None)
 
 
