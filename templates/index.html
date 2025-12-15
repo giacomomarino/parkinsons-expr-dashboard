@@ -88,6 +88,37 @@
                 display: flex;
                 align-items: center;
             }
+            .code-block {
+                background-color: #282c34;
+                border-radius: 6px;
+                padding: 20px;
+                overflow-x: auto;
+                margin: 20px 0;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+            .code-block pre {
+                margin: 0;
+                font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+            .code-block code {
+                color: #abb2bf;
+                display: block;
+            }
+            .code-block code .comment {
+                color: #5c6370;
+                font-style: italic;
+            }
+            .code-block code .string {
+                color: #98c379;
+            }
+            .code-block code .keyword {
+                color: #c678dd;
+            }
+            .code-block code .operator {
+                color: #56b6c2;
+            }
 
         </style>
     </head>
@@ -120,6 +151,50 @@
             <a href="/tissue_genes" class="umap-button" style="background-color:#6f42c1; margin-left:10px;">
                 Tissue Top/Bottom Genes
             </a>
+        </div>
+        <div style="margin-top: 40px; padding-top: 30px; border-top: 2px solid #ddd;">
+            <h2 style="color: #333;">Tissue Type Mapping</h2>
+            <p style="color: #666; margin-bottom: 15px;">
+                Tissue and cell type names are normalized by removing punctuation, converting to lowercase, 
+                and then aggregated using the mapping dictionary below (augmented from GPT-4.5 output):
+            </p>
+            <div class="code-block">
+                <pre><code>mapping = {
+    # === Fibroblasts and skin ===
+    r'.*fibroblast.*|.*skin fibroblast.*': 'fibroblasts',
+
+    # === iPSC and derivatives ===
+    r'.*ips.*|.*induced pluripotent.*': 'iPSC',
+    r'.*npc.*|.*neural progenitor.*|.*neural stem.*': 'neural progenitors',
+
+    # === Induced neurons and neuronal cultures ===
+    r'.*ngn2.*|.*induced cortical neuron.*|.*iPSC derived neuron.*|.*terminally differentiated neuron.*': 'induced neurons',
+    r'.*\bin neuron\b.*|.*\bin\b': 'induced dopaminergic neurons (iDANs)',  # captures "iN" or "induced neuron"
+
+    # === Dopaminergic / midbrain ===
+    r'.*dopaminergic.*|.*midbrain organoid.*|.*parkinson.*dopamine neuron.*': 'dopaminergic neurons',
+    r'.*ventral tegmental area.*': 'brain - ventral tegmental area',
+
+    # === Brain subregions ===
+    r'.*substantia nigra.*': 'brain - substantia nigra',
+    r'.*cortex.*|.*prefrontal.*|.*mtg.*|.*frontal.*': 'brain - cortex',
+    r'.*amygdala.*': 'brain - amygdala',
+    r'.*putamen.*': 'brain - putamen',
+    r'.*temporal gyrus.*': 'brain - temporal gyrus',
+
+    # === Muscle ===
+    r'.*muscle.*': 'muscle',
+
+    # === Blood and plasma ===
+    r'.*blood.*|.*plasma.*|.*b cell.*': 'blood',
+
+    # === Experimental dataset tags (iPD, CS, C2, GBA) ===
+    r'.*\bcs\d+ipd\b.*|.*gba.*|.*c2.*day5.*': 'iPD-derived cell lines',
+
+    # === Generic brain ===
+    r'.*brain.*': 'brain (unspecified)',
+}</code></pre>
+            </div>
         </div>
 
         <script>
