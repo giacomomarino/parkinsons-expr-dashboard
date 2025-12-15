@@ -109,6 +109,36 @@ def normalize_tissue_source(source):
     return source
 
 
+def categorize_tissue(tissue):
+    """Categorize tissue into groups for visualization"""
+    tissue_lower = tissue.lower()
+    
+    # first check for brain regions
+    if tissue.startswith('brain -'):
+        return 'Brain Regions'
+    if 'brain (unspecified)' in tissue_lower:
+        return 'Brain Regions'
+    
+    # then check for neuronal/induced cell types (including iPD-derived)
+    neuronal_types = [
+        'ipsc', 'neural progenitors', 'neural progenitor', 'neural stem',
+        'induced neurons', 'induced neuron',
+        'induced dopaminergic neurons', 'idans',
+        'dopaminergic neurons', 'dopaminergic neuron',
+        'ipd-derived', 'ipd derived'  # Include iPD-derived with neuronal types
+    ]
+    if any(nt in tissue_lower for nt in neuronal_types):
+        return 'Neuronal/Induced Cell Types'
+    
+    # then check for generic brain (catch-all for any remaining brain-related)
+    if 'brain' in tissue_lower:
+        return 'Brain Regions'
+    
+    # check for all other cell types and miscellaneous (combined)
+    # upon inspection, mostly peripheral
+    return 'Other/Periphery'
+
+
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -149,56 +179,145 @@ def analyze():
     for sample_id, expression_value in gene_expression.items():
         if sample_id in metadata:
             raw_tissue = metadata[sample_id]['source']
-            # Skip pancreatic islets as per exercise_5.py
+            # skip pancreatic islets as per initial inspection
             if 'pancreatic islets' in raw_tissue.lower():
                 continue
-            # Normalize the tissue name
+            # normalize the tissue name
             tissue = normalize_tissue_source(raw_tissue)
             if tissue not in tissue_expression:
                 tissue_expression[tissue] = []
             tissue_expression[tissue].append(expression_value)
     
-    # Calculate mean expression per tissue
+    # calculate mean expression per tissue
     tissue_means = {tissue: sum(values)/len(values) 
                     for tissue, values in tissue_expression.items()}
     
-    # Find tissue with highest mean expression for displaying text
+    # find tissue with highest mean expression for displaying text
     most_expressed_tissue = max(tissue_means, key=tissue_means.get)
     max_expression = tissue_means[most_expressed_tissue]
     
+    # categorize tissues and sort by expression within categories
+    tissue_categories = {}
+    for tissue, values in tissue_expression.items():
+        category = categorize_tissue(tissue)
+
+        if category not in tissue_categories:
+            tissue_categories[category] = []
+        tissue_categories[category].append((tissue, values, tissue_means[tissue]))
+    
+    # define category order and colors
+    category_order = [
+        'Brain Regions',
+        'Neuronal/Induced Cell Types',
+        'Other/Periphery'
+    ]
+    category_colors = {
+        'Brain Regions': '#4A90E2',  # Blue
+        'Neuronal/Induced Cell Types': '#ed1607',  # Medium slate blue
+        'Other/Periphery': '#50C878',  # Green
+    }
+    
+    # Sort tissues within each category by mean expression (descending)
+    for category in tissue_categories:
+        tissue_categories[category].sort(key=lambda x: x[2], reverse=True)
+    
+    # create list of tissues grouped by category
+    ordered_tissues = []
+    for category in category_order:
+        if category in tissue_categories:
+            ordered_tissues.extend(tissue_categories[category])
+    
     fig = go.Figure()
     
-    # add an interactive boxplot for each tissue
-    tissues = list(tissue_expression.keys())
-    for tissue in tissues:
+    # add boxplots grouped by category
+    for tissue, values, mean_expr in ordered_tissues:
+        category = categorize_tissue(tissue)
+
+        color = category_colors.get(category, '#D3D3D3')
         fig.add_trace(go.Box(
-            y=tissue_expression[tissue],
+            y=values,
             name=tissue,
             boxmean='sd',
-            marker_color='lightblue'
+            marker_color=color,
+            line=dict(color=color, width=1.5),
+            showlegend=False  # Hide individual tissue legends
         ))
+    
+    # track category positions for annotations and separators
+    category_positions = {}
+    current_pos = 0
+    
+    for category in category_order:
+        if category in tissue_categories:
+            tissues_in_cat = tissue_categories[category]
+            category_positions[category] = (current_pos, current_pos + len(tissues_in_cat) - 1)
+            current_pos += len(tissues_in_cat)
+    
+    # add category legend using scatter traces
+    for category in category_order:
+        if category in tissue_categories:
+            color = category_colors.get(category, '#D3D3D3')
+            fig.add_trace(go.Scatter(
+                x=[None],
+                y=[None],
+                mode='markers',
+                marker=dict(size=12, color=color, symbol='square'),
+                name=category,
+                showlegend=False,
+                legendgroup=category
+            ))
+    
+    # add category annotations/separators
+    annotations = []
+    shapes = []
+    for category, (start, end) in category_positions.items():
+        if start < len(ordered_tissues):
+            # add category label above the group
+            annotations.append(dict(
+                x=(start + end) / 2,
+                y=1.02,
+                xref='x',
+                yref='paper',
+                text=category,
+                showarrow=False,
+                font=dict(size=12, color=category_colors.get(category, '#333'), family='Arial'),
+                bgcolor='rgba(255,255,255,0.9)',
+                bordercolor=category_colors.get(category, '#333'),
+                borderwidth=2,
+                borderpad=4
+            ))
     
     fig.update_layout(
         title={
-            'text': f'Gene Expression of {gene_name} Across Different Tissues',
+            'text': f'Gene Expression of {gene_name} Across Different Tissues<br><sub>Grouped by Category, Sorted by Mean Expression</sub>',
             'x': 0.5,
             'xanchor': 'center',
             'font': {'size': 18, 'color': '#333'}
         },
-        xaxis_title='Tissue Type',
+        xaxis_title='Tissue Type (Grouped by Category)',
         yaxis_title='Normalized Gene Expression',
-        height=600,
-        showlegend=False,
+        height=700, 
+        showlegend=True,
+       
         plot_bgcolor='white',
         hovermode='closest',
-        xaxis={'tickangle': -45}
+        xaxis={
+            'tickangle': -60,
+            'tickmode': 'linear',
+            'tickfont': {'size': 10}, 
+            'automargin': True,  # auto adjust margins
+            'side': 'bottom'
+        },
+        margin=dict(b=150),  # increase bottom margin for rotated labels
+        annotations=annotations,
+        shapes=shapes
     )
     
     fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor='lightgray')
     
     plot_html = fig.to_html(full_html=False, include_plotlyjs='cdn')
     
-    # Prepare analysis text
+    # prepare analysis text
     analysis = f"The gene {gene_name} is most highly expressed in: {most_expressed_tissue}\n"
     analysis += f"Mean expression level: {max_expression:.2f}\n"
     
